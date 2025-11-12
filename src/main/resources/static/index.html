@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💼 Smart Job Portal</h1>
+
+  <!-- ✅ Add Job Form -->
+  <div class="form-container">
+    <input type="text" id="title" placeholder="Job Title">
+    <input type="text" id="company" placeholder="Company">
+    <input type="text" id="location" placeholder="Location">
+    <input type="number" id="salary" placeholder="Salary">
+    <button onclick="addJob()">➕ Add Job</button>
+  </div>
+
+  <!-- ✅ Jobs Table -->
+  <table id="jobTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Company</th>
+        <th>Location</th>
+        <th>Salary</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- ✅ Edit Job Modal -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <h3>✏️ Edit Job</h3>
+      <input type="hidden" id="editId" />
+      <input type="text" id="editTitle" placeholder="Job Title" />
+      <input type="text" id="editCompany" placeholder="Company" />
+      <input type="text" id="editLocation" placeholder="Location" />
+      <input type="number" id="editSalary" placeholder="Salary" />
+      <div class="modal-buttons">
+        <button onclick="updateJob()">💾 Save</button>
+        <button onclick="closeModal()">❌ Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
