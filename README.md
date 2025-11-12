@@ -50,9 +50,7 @@ Make sure you have the following installed:
    git clone https://github.com/BSiddartha/smart-job-portal.git
    cd smart-job-portal
 
----
-
-2.Configure Database
+**2.Configure Database**
 
 In src/main/resources/application.properties:
 
@@ -62,7 +60,7 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
-3.Run the Application
+**3.Run the Application**
 
 mvn spring-boot:run
 
@@ -71,7 +69,7 @@ You’ll see something like:
 Tomcat started on port 8080
 Started SmartJobPortalApplication in 3.5 seconds
 
-🔗 API Endpoints
+## 🔗 API Endpoints
 | Method | Endpoint        | Description   |
 | ------ | --------------- | ------------- |
 | `POST` | `/api/jobs/add` | Add a new job |
@@ -101,26 +99,29 @@ GET http://localhost:8080/api/jobs/all
 ]
 
 
-🎨 Frontend UI (Optional)
+## 🎨 Frontend UI (Optional)
 
-->Simple HTML, CSS, JavaScript frontend integrated with the same backend.
-->Displays available jobs and allows adding new ones.
+- Simple HTML, CSS, JavaScript frontend integrated with the same backend.
+- Displays available jobs and allows adding new ones.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 BSiddartha
+
 📍 India
+
 💼 Java Full Stack Developer | Spring Boot | MySQL
+
 🔗 GitHub Profile
 
-🏁 Future Enhancements
+## 🏁 Future Enhancements
 
-->Add authentication (Spring Security / JWT)
-->Implement job application feature
-->Add role-based access (Admin, HR, User)
-->Frontend integration with React or Angular
+- Add authentication (Spring Security / JWT)
+- Implement job application feature
+- Add role-based access (Admin, HR, User)
+- Frontend integration with React or Angular
 
-⭐ If you like this project, give it a star on GitHub!
+## ⭐ If you like this project, give it a star on GitHub!
 
 ---
 
