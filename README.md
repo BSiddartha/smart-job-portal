@@ -79,6 +79,7 @@ Started SmartJobPortalApplication in 3.5 seconds
 
 Example: Add Job
 POST http://localhost:8080/api/jobs/add
+
 {
   "title": "Java Developer",
   "company": "TCS",
@@ -88,6 +89,7 @@ POST http://localhost:8080/api/jobs/add
 
 Example: Get All Jobs
 GET http://localhost:8080/api/jobs/all
+
 [
   {
     "id": 1,
