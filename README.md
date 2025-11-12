@@ -1,6 +1,3 @@
-# smart-job-portal
-Full Stack Job Portal using Spring Boot, MySQL, HTML, CSS, and JavaScript
-
 # 🧠 Smart Job Portal
 
 A full-stack **Spring Boot + MySQL** project that allows companies to post job openings and users to view or apply for them.  
